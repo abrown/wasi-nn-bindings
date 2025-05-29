@@ -32,7 +32,7 @@ functionality from WebAssembly.
 
 3. Compile the application to WebAssembly:
     ```shell script
-    cargo build --target=wasm32-wasi
+    cargo build --target=wasm32-wasip1
     ```
 
 4. Run the generated WebAssembly in a runtime supporting [wasi-nn], e.g., [Wasmtime].
@@ -42,7 +42,7 @@ functionality from WebAssembly.
 
 ### Build
 
-To build this crate from source, use: `cargo build --target wasm32-wasi`.
+To build this crate from source, use: `cargo build --target wasm32-wasip1`.
 
 
 ### Examples
